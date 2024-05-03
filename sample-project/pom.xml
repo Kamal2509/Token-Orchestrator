@@ -48,12 +48,10 @@
 		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
-		
-
-
 	</dependencies>
 
 	<build>
+		<finalName>Sb_docker_app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
